@@ -10,7 +10,7 @@ wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | apt-key add -
 apt update
 apt upgrade
 apt install python python3-pip steam atom nvidia-driver-460 git tilix nautilus \
-pulseeffects krita unrar unzip
+pulseeffects krita unrar unzip kdenlive
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb

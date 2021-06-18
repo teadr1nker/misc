@@ -8,12 +8,14 @@ fi
 echo 'Installing apps!'
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | apt-key add -
 apt update
+apt upgrade
 apt install python python3-pip steam atom nvidia-driver-460 git tilix nautilus \
-pulseeffects
-snap install discord-canary
+pulseeffects krita unrar unzip
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
+dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 pip3 install numpy ipython
 apm install atom-beautify autosave
+snap install discord-canary qbittorrent-arnatious
+update-alternatives --config x-terminal-emulator
 echo 'End'

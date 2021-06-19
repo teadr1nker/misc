@@ -6,7 +6,6 @@ then
 fi
 
 echo 'Installing apps!'
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | apt-key add -
 apt update
 apt upgrade
 apt install python python3-pip steam nvidia-driver-460 git tilix nautilus \

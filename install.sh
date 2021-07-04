@@ -15,6 +15,6 @@ dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 pip3 install numpy ipython
 apm install atom-beautify autosave
-snap install discord-canary qbittorrent-arnatious atom
+snap install qbittorrent-arnatious atom
 update-alternatives --config x-terminal-emulator
 echo 'End'

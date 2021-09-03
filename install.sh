@@ -14,7 +14,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 pip3 install numpy ipython
-snap install qbittorrent-arnatious atom
+snap install qbittorrent-arnatious
+snap install --classic atom
 apm install atom-beautify autosave
 update-alternatives --config x-terminal-emulator
 echo 'End'
